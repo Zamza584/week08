@@ -1,0 +1,123 @@
+.preamble/*,
+.requirements p:nth-child(1n),
+.requirements*/ {
+  grid-column: 1/5;
+  grid-row: 4/5;
+  margin-top: 1em;
+  background: url(../../SVG/sata_controler.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: center;
+  color: white;
+  font-family: "Roboto Mono", cursive;
+  font-size: 0.8em;
+  @media screen and (min-width: 500px) {
+    background-size: 100%;
+    font-size: 0.9em;
+    grid-template-rows: 0.5fr 0.3fr 0.7fr 0.5fr;
+}
+@media screen and (min-width: 650px) {
+    background-size: 100%;
+    font-size: 1em;
+    grid-template-rows: 0.5fr 0.3fr 0.7fr 0.5fr;
+}
+@media screen and (min-width: 750px) {
+    background-size: 100%;
+    font-size: 1em;
+    grid-template-rows: 0.5fr 0.3fr 0.7fr 0.5fr;
+}
+@media screen and (min-width: 850px) {
+    background-size: 100%;
+    font-size: 1em;
+    grid-template-rows: 0.5fr 0.3fr 0.7fr 0.5fr;
+}
+@media screen and (min-width: 1000px) {
+    grid-row: 2/12;
+    grid-column: 10/13;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    font-size: 1em;
+    margin:0em;
+}
+@media screen and (min-width: 1200px) {
+      grid-row: 2/12;
+      grid-column: 9/13;
+      background-size: 100%;
+      background-repeat: repeat-y;
+      font-size: 1.15em;
+      margin:0em;
+  }
+
+  @media screen and (min-width: 1300px) {
+        grid-row: 3/13;
+        grid-column: 9/13;
+        background-size: 100%;
+        background-repeat: repeat-y;
+        font-size: 1.3em;
+        margin:0em;
+    }
+}
+
+.preamble h3/*,
+.requirements p:nth-child(1n) h3,
+.requirements h3*/ {
+  margin-top: 1em;
+  margin-left: 2em;
+  @media screen and (min-width: 500px) {
+    margin-left: 3em;
+  }
+@media screen and (min-width: 650px) {
+    margin-left: 3.5em;
+  }
+@media screen and (min-width: 750px) {
+    margin-left: 3.5em;
+  }
+@media screen and (min-width: 850px) {
+    margin-left: 3.5em;
+}
+@media screen and (min-width: 1000px) { 
+    margin-right: 1em;
+    margin-left: 1.5em;
+}
+}
+.preamble p/*,
+.requirements p:nth-child(1n) p,
+.requirements p */{
+  margin-left: 2.4em;
+  margin-right: 2.4em;
+  
+@media screen and (min-width: 500px) {
+  margin-left: 3em;
+}
+@media screen and (min-width: 650px) {
+  margin-left: 3.5em;
+}
+@media screen and (min-width: 750px) {
+  margin-left: 3.5em;
+  margin-right: 3em;
+}
+@media screen and (min-width: 850px) {
+  margin-left: 4em;
+  margin-right: 3em;
+}
+@media screen and (min-width: 1000px) {
+  margin-left: 2em;
+  margin-right:2em;
+}
+
+@media screen and (min-width: 1120px) {
+   margin-left: 2em;
+   margin-right:2em;
+   font-size: 1.2em;
+}
+}
+
+.preamble h3{
+  margin-bottom: 0em;
+}
+
+
+
+
+
