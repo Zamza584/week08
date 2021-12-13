@@ -1,0 +1,381 @@
+.requirements{
+    display: none;
+    grid-column: 1/5;
+    @media screen and (min-width: 1000px) { 
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,0.1fr);
+        grid-column: 1/13;
+        grid-row: 1/13;
+    }
+}
+
+.requirements h3 {
+    grid-column: 1/13;
+    grid-row:1/3;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    text-align: center;
+    color: white;
+  font-family: "Roboto Mono", cursive;
+  font-size: 0.8em;
+  background: url(../../SVG/sata_controler.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  
+@media screen and(min-width:480px){
+    font-size: 1em;
+}
+
+@media screen and(min-width:560px){
+    font-size: 1.2em;
+}
+@media screen and (min-width:670px){
+  font-size: 1.5em;
+}
+  @media screen and (min-width: 1000px) { 
+      text-align: left;
+      padding-top: 1em;
+      padding-left: 1.5em;
+        padding-right: 1.1em;
+      grid-column: 9/13;
+      grid-row: 3/4;
+      font-size: 1.5em;
+  }
+
+  }
+  .requirements p:first-of-type{
+      @media screen and (min-width: 1000px) { 
+        grid-column: 9/13;
+        grid-row: 3/13;
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    @media screen and (min-width: 1000px) { 
+      grid-column: 9/13;
+      grid-row: 4/11;
+      padding-top: 1.5em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+  }
+  }
+  .requirements p:nth-child(3){
+    @media screen and (min-width: 1000px) { 
+      grid-column: 1/4;
+      grid-row: 2/13;
+      padding-top: 0em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      font-size: 1.2em;
+  }
+  @media screen and (min-width: 1200px) { 
+    grid-column: 1/4;
+    grid-row: 2/13;
+    padding-top: 0em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.3em;
+}
+@media screen and (min-width: 1300px) { 
+  grid-column: 1/4;
+  grid-row: 2/13;
+  padding-top: 0em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.4em;
+}
+@media screen and (min-width: 1350px) { 
+  grid-column: 1/4;
+  grid-row: 2/13;
+  padding-top: 0em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.5em;
+}
+}
+
+.requirements p:nth-child(4){
+  @media screen and (min-width: 1000px) { 
+    grid-column: 10/13;
+    grid-row: 3/9;
+    padding-top: 0em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0em;
+    font-size: 1.2em;
+}
+@media screen and (min-width: 1200px) { 
+  grid-column: 10/13;
+  padding-top: 0em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0em;
+  font-size: 1.3em;
+}
+@media screen and (min-width: 1300px) { 
+  grid-column: 10/13;
+  padding-top: 0em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0em;
+  font-size: 1.4em;
+}
+@media screen and (min-width: 1350px) { 
+  grid-column: 10/13;
+  padding-top: 0em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0em;
+  font-size: 1.5em;
+}
+}
+
+.requirements p:nth-child(5){
+  @media screen and (min-width: 1000px) { 
+    grid-column: 1/4;
+    grid-row: 2/13;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.3em;
+}
+@media screen and (min-width: 1172px) { 
+  grid-column: 1/4;
+  grid-row: 2/13;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.35em;
+}
+@media screen and (min-width: 1200px) { 
+  grid-column: 1/4;
+  grid-row: 2/13;
+  padding-top: 1.2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+@media screen and (min-width: 1286px) { 
+  grid-column: 1/4;
+  grid-row: 2/13;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+@media screen and (min-width: 1300px) { 
+grid-column: 1/4;
+grid-row: 2/13;
+padding-left: 1.5em;
+padding-right: 1.5em;
+font-size: 1.45em;
+}
+@media screen and (min-width: 1350px) { 
+grid-column: 1/4;
+grid-row: 2/13;
+padding-left: 1.5em;
+padding-right: 1.5em;
+font-size: 1.5em;
+}
+}
+
+.requirements p:nth-child(6){
+@media screen and (min-width: 1000px) { 
+  grid-column: 10/13;
+  grid-row: 4/10;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0em;
+  font-size: 1.3em;
+}
+@media screen and (min-width: 1172px) { 
+  grid-column: 10/13;
+  grid-row: 4/10;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0em;
+  font-size: 1.35em;
+}
+@media screen and (min-width: 1200px) { 
+grid-column: 10/13;
+grid-row: 4/9;
+padding-left: 1.5em;
+padding-right: 1.5em;
+padding-bottom: 0em;
+font-size: 1.4em;
+}
+@media screen and (min-width: 1300px) { 
+grid-column: 10/13;
+grid-row: 5/9;
+padding-left: 1.5em;
+padding-right: 1.5em;
+padding-bottom: 0em;
+font-size: 1.45em;
+}
+@media screen and (min-width: 1350px) { 
+grid-column: 10/13;
+grid-row: 5/9;
+padding-left: 1.5em;
+padding-right: 1.5em;
+padding-bottom: 0em;
+font-size: 1.5em;
+}
+}
+
+
+  .requirements p {
+    grid-column: 1/13;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 0em;
+    margin-top: 0em;
+    height: auto;
+   color: white;
+  font-family: "Roboto Mono", cursive;
+  font-size: 0.8em;
+
+  background: url(../../SVG/sata_controler.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: center;
+       
+   @media screen and (min-width: 460px) {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-size: 0.9em;
+
+     }
+   @media screen and (min-width: 590px) {
+    font-size: 1em;
+       padding-left: 3.2em;
+       padding-right: 3.2em;
+     
+     }
+   @media screen and (min-width: 675px) {
+    font-size: 1.2em;
+    padding-left: 3.4em;
+       padding-right: 3.4em;
+     
+     }
+
+     @media screen and (min-width: 860px) {
+        font-size: 1.3em;
+        padding-left: 3.7em;
+           padding-right: 3.7em;
+         
+         }
+
+     @media screen and (min-width: 970px) {
+        font-size: 1.3em;
+        padding-left: 4.3em;
+           padding-right: 4.3em;
+         
+         }
+   @media screen and (min-width: 1000px) {
+        margin: 0em;
+        background-repeat: repeat-y;
+        font-size: 1.2em;
+     }
+   }
+
+   .requirements:before{
+    visibility: var(--visible, hidden);
+    @include cpu_logo_grid;
+    @media screen and (min-width: 1000px) {
+     @include position_background(4,8,5,9);
+     grid-row-end: var(--EndRow,8);
+    }
+    @media screen and (min-width: 1060px) {
+      
+     }
+     @media screen and (min-width: 1100px) {
+     }
+    @media screen and (min-width: 1120px){ 
+   }
+   @media screen and (min-width: 1174px){ 
+     
+   }
+   @media screen and (min-width: 1200px){ 
+    
+   }
+   @media screen and (min-width: 1275px){ 
+    grid-row-end: var(--EndRow1275,8);
+  }
+   @media screen and (min-width: 1290px){ 
+     
+   }
+   @media screen and (min-width: 1320px){ 
+    
+  }
+   @media screen and (min-width: 1391px){ 
+    
+   }
+ }
+
+  .requirements::after{
+    visibility: var(--visible, hidden);
+    @include text;
+    @media screen and (min-width: 1000px) {
+      grid-column: 6/8;
+      grid-row: 5/7;
+      font-size: 1.5em;
+      top:0.5em;
+      margin-right: 0em;
+      margin-left: 0em;
+      left: 0em;
+    }
+    @media screen and (min-width: 1060px) {
+      font-size: 1.5em;
+      top:var(--top,1.2em);
+      left: 0em;
+    }
+    @media screen and (min-width: 1102px) {
+    
+   }
+   @media screen and (min-width: 1120px) {
+    top:0.5em;
+ }
+ @media screen and (min-width: 1138px) {
+  
+}
+@media screen and (min-width: 1154px) {
+  margin-left: 0em;
+  margin-right: 0em;
+  left: 0.08em;
+}
+@media screen and (min-width: 1174px) {
+  
+}
+@media screen and (min-width: 1215px) {
+  top:1.5em;
+}
+@media screen and (min-width: 1257px) {
+  top:1.5em;
+}
+@media screen and (min-width: 1260px) {
+}
+@media screen and (min-width: 1290px) {
+  top:var(--top1290,0.8em);
+  left:0.2em;
+}
+
+@media screen and (min-width: 1310px) {
+  top:var(--top1310,0em);
+  font-size: 1.7em;
+
+}
+@media screen and (min-width: 1390px){ 
+  top:0em;
+  left:0em;
+  font-size: 2em;
+}
+@media screen and (min-width: 1415px){ 
+  left:0.2em;
+}
+    }
